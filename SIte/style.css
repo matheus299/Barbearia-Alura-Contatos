@@ -75,3 +75,71 @@ footer {
     margin-top: 5px;
 
 }
+
+
+
+main {
+    width: 940px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+form {
+    margin-left: 100px ;
+    
+}
+
+.input-padrão {
+    display: block;
+    padding: 10px 25px;
+    width: 50%;
+    margin: 20px 0px 10px 0px;
+}
+label {
+    display: block;
+    margin: 20px 0px 10px 0px ;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+fieldset {
+    border: none;
+}
+
+.submit-button {
+    width: 40%;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.submit-button:hover {
+    background-color: yellow;
+    transition: ease-in-out 0.7s;
+    font-weight: bolder;
+}
+
+.table-times {
+    margin: 20px 0px 40px 100px ;
+    
+}
+
+thead {
+    background-color: #555;
+    font-weight: bold;
+    color: white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
